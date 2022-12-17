@@ -1,0 +1,88 @@
+.header2{
+    a{
+        img{
+            width: 100%;
+            
+        }
+    }
+        
+    .subtitulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(187, 28, 81);
+        text-shadow: 10px 10px 10px pink;
+        text-align: center;
+        font-size: 4rem;
+        font-style: oblique;
+        margin-bottom: 40px;
+    }
+
+    nav {
+        .container-fluid {
+            padding: 10px 10px;
+            border-radius: 10px;
+            background-color: pink;
+            box-shadow: 5px 5px 5px rgb(187, 28, 81);
+            font-weight: bold;
+            font-size: 2rem;
+            font-style: oblique;
+        }
+    }
+}
+
+.mainmujeres {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    div{
+        width: 30%;
+        padding: 0 5% 0 5%;
+        img{
+            width: 100%;
+        }
+    }
+
+    }
+
+
+.mainchicos {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    div{
+        width: 30%;
+        padding: 0 5% 0 5%;
+        img{
+            width: 100%;
+        }
+    }
+
+
+}
+
+.mainhombres {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    div{
+        width: 30%;
+        padding: 0 5% 0 5%;
+        img{
+            width: 100%;
+        }
+    }
+    
+
+}
+
+.formulario{
+    margin-bottom: 10%;
+    
+}
+
+
+

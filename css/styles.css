@@ -1,0 +1,170 @@
+/* reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 600px) {
+  /*estilo del section*/
+  section {
+    display: block;
+    /*display: flex;*/
+    background-color: #facfd6;
+    gap: 1.5rem;
+    padding: 2rem; }
+    section div {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+@media screen and (min-width: 1024px) {
+  .es-visible-camion {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #facfd6;
+    gap: 1.5rem;
+    padding: 2rem; }
+  footer ul li:hover {
+    background-color: #bb1c51;
+    transform: scale(0.8); } }
+
+main h1, main p {
+  font-style: oblique;
+  color: #bb1c51; }
+
+/* estilos */
+body {
+  background-color: white; }
+  body header {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body header img {
+      width: 40%; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+  background-color: white; }
+  main h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 10px 10px 10px pink;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 40px; }
+  main p {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 10px 10px 10px pink;
+    margin-bottom: 40px; }
+  main nav .container-fluid {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: pink;
+    box-shadow: 5px 5px 5px #bb1c51;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: oblique; }
+  main .collage img {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+
+section {
+  display: none; }
+  section div img {
+    width: 25%;
+    padding: 2rem;
+    margin: 2rem; }
+
+footer {
+  text-align: center;
+  margin: 20px; }
+  footer ul {
+    list-style: none;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%; }
+    footer ul .telefono img {
+      width: 13%;
+      padding: 10px; }
+    footer ul .ubicacion img {
+      width: 10%;
+      padding: 5px;
+      margin-left: 20px; }
+    footer ul .mail img {
+      width: 10%;
+      padding: 5px; }
+  footer h2 {
+    font-size: 0.7rem;
+    margin-top: 1rem; }
+
+.header2 a img {
+  width: 100%; }
+
+.header2 .subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #bb1c51;
+  text-shadow: 10px 10px 10px pink;
+  text-align: center;
+  font-size: 4rem;
+  font-style: oblique;
+  margin-bottom: 40px; }
+
+.header2 nav .container-fluid {
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: pink;
+  box-shadow: 5px 5px 5px #bb1c51;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: oblique; }
+
+.mainmujeres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .mainmujeres div {
+    width: 30%;
+    padding: 0 5% 0 5%; }
+    .mainmujeres div img {
+      width: 100%; }
+
+.mainchicos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .mainchicos div {
+    width: 30%;
+    padding: 0 5% 0 5%; }
+    .mainchicos div img {
+      width: 100%; }
+
+.mainhombres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .mainhombres div {
+    width: 30%;
+    padding: 0 5% 0 5%; }
+    .mainhombres div img {
+      width: 100%; }
+
+.formulario {
+  margin-bottom: 10%; }
