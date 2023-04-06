@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre":"Buzo Hombre",
+        "precio":1000,
+        "imagen":"buzo-hombre2.jpg"
+    },
+    {
+        "id": 2,
+        "nombre":"Pantalón Cargo",
+        "precio":3000,
+        "imagen":"cargo-hombre2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre":"Sudadera Hombre",
+        "precio":6000,
+        "imagen":"sudadera-hombre.jpg"
+    },
+    {
+        "id": 4,
+        "nombre":"Short Hombre",
+        "precio":2000,
+        "imagen":"short-hombre.jpg"
+    }
+]
