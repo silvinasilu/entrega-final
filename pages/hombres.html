@@ -58,32 +58,6 @@
   <!--contenido principal-->
 
   <main class="mainhombres">
-<div class="victoria-js-producto">
-      <img src="../imegen/buzo-hombre2.jpg" alt="buzo de hombre">
-      <p class="victoria-js-nombre-producto">Buzo Hombre</p>
-      <p class="victoria-js-precio-producto">5000</p>
-      <button class="victoria-js-agregar-carrito">Agregar al carrito</button>
-    </div>
-    <!--
-    <div class="victoria-js-producto">
-      <img src="../imegen/cargo-hombre2.jpg" alt="pantalon hombre">
-      <p class="victoria-js-nombre-producto">Pantalon cargo hombre</p>
-      <p class="victoria-js-precio-producto">4000</p>
-      <button class="victoria-js-agregar-carrito">Agregar al carrito</button>
-    </div>
-    <div class="victoria-js-producto">
-      <img src="../imegen/sudadera-hombre.jpg" alt="sudadera hombre">
-      <p class="victoria-js-nombre-producto">Sudadera de hombre</p>
-      <p class="victoria-js-precio-producto">3500</p>
-      <button class="victoria-js-agregar-carrito">Agregar al carrito</button>
-    </div>
-    <div class="victoria-js-producto">
-      <img src="../imegen/short-hombre.jpg" alt="short hombre">
-      <p class="victoria-js-nombre-producto">Short hombre</p>
-      <p class="victoria-js-precio-producto">2500</p>
-      <button class="victoria-js-agregar-carrito">Agregar al carrito</button>
-    </div> -->
-
   </main>
 
   <section class="es-visible-camion">
@@ -91,15 +65,23 @@
       <img src="../imegen/camion.png" alt=" imagen camion">
     </div>
     <div>
-      <img src="../imegen/carrito de compras.png" alt=" imagen carrito compras">
+      <img src="../imegen/carrito de compras.png" alt="Imagen carrito compras">
+      <h6 class="victoria-js-cantidad-productos-carrito">0</h6>
+      <h6>$
+        <span class="victoria-js-importe-total-carrito">0</span>
+      </h6>
     </div>
     <div>
       <h2> Envios a domicilio</h2>
       <p>Hacemos envios a todo el pais.
-        Con una compra minima de $5000 tenes el envio gratis </p>
+        Con una compra minima de $5000 tenes el envio gratis</p>
     </div>
     <div>
-      <h2> Tu carrito </h2>
+      <h2>Tu carrito tiene
+        <span class="victoria-js-cantidad-productos-carrito">0</span> productos seleccionados
+        con un importe total de
+        <span class="victoria-js-importe-total-carrito">0</span>
+      </h2>
       <p>Llevate todo lo que quieras, podes elegir para niños, hombres y mujeres, todo en una sola tienda.</p>
     </div>
 
@@ -109,6 +91,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../hombres.js"></script>
 </body>
 
