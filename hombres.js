@@ -122,14 +122,4 @@ function mostrarImporteTotal() {
 cargarProductos();
 
 
-/* 
-let botones = document.getElementsByClassName("victoria-js-agregar-carrito");
-Array.from(botones).forEach(boton => boton.addEventListener("click", function(e) {
-    let contenedorProducto = this.parentElement;
-    let nombreProducto = contenedorProducto.getElementsByClassName("victoria-js-nombre-producto")[0].textContent;
-    let precioProducto = contenedorProducto.getElementsByClassName("victoria-js-precio-producto")[0].textContent;
-    let producto = new Producto(1, nombreProducto , precioProducto, "");
-    carrito.agregarProducto(producto)
-})); */
-
 
