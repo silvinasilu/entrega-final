@@ -24,7 +24,6 @@ class Carrito {
                 icon: 'error',
                 confirmButtonText: 'Continuar comprando'
               });
-            //alert('Gil! Ya no hay productos para sacar!');
         }
     }
 
